@@ -18,7 +18,7 @@ metadata:
   namespace: default
 spec:
   containers:
-  - image: busybox
+  - image: alittleprogramming/simple-nonroot-user
     command:
       - /bin/sh
       - -c
